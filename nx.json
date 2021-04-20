@@ -14,6 +14,7 @@
   "projects": {
     "www": { "tags": [] },
     "www-e2e": { "tags": [], "implicitDependencies": ["www"] },
-    "shared-global": { "tags": ["shared", "core"] }
+    "shared-global": { "tags": ["shared", "core"] },
+    "shared-data": { "tags": ["shared", "core"] }
   }
 }
