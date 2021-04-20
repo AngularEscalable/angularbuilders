@@ -20,6 +20,9 @@
     "shared-form": { "tags": ["shared", "ui"] },
     "shared-layout": { "tags": ["shared", "ui"] },
     "domain-home": { "tags": ["domain", "page"] },
-    "domain-not-found": { "tags": ["domain", "page"] }
+    "domain-not-found": { "tags": ["domain", "page"] },
+    "domain-resource": { "tags": ["domain", "page"] },
+    "domain-category": { "tags": ["domain", "page"] },
+    "domain-resource-new": { "tags": ["domain", "page"] }
   }
 }
