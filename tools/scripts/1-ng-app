@@ -1,7 +1,3 @@
-git branch -M main
-git remote add origin https://github.com/AngularEscalable/angularbuildes.git
-git add *
-git commit -m 'chore: intial commit'
 echo "🚧 app intitial configuration ";
 echo " app strict ";
 json -I -f apps/web/tsconfig.json -e "this.compilerOptions = { };"
