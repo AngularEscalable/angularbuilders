@@ -1,19 +1,16 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { HomePage } from './home.page';
 import { CategoryListComponent } from './category-list/category-list.component';
+import { HomePage } from './home.page';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forChild([
-      /* {path: '', pathMatch: 'full', component: InsertYourComponentHere} */
+      { path: '', pathMatch: 'full', component: HomePage },
     ]),
   ],
-  declarations: [
-    HomePage,
-    CategoryListComponent
-  ],
+  declarations: [HomePage, CategoryListComponent],
 })
 export class HomeModule {}

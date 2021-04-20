@@ -35,6 +35,7 @@ git commit -m 'feat: generate form library'
 echo " generate layout library";
 nx g library layout --directory=shared --importPath=@ab/layout --prefix=ab --tags='shared, ui'
 nx g c navbar --project=shared-layout --export=true --type=Widget
+nx g c footer --project=shared-layout --export=true
 git add *
 git commit -m 'feat: generate layout library'
 echo "🏠 shared libraries ";

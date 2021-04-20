@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'ab-navbar',
-  templateUrl: './navbar.widget.html',
+  selector: 'ab-footer',
+  templateUrl: './footer.component.html',
   styles: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class NavbarWidget {}
+export class FooterComponent {}
