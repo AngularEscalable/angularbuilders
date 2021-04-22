@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { AuthGuard } from '@ab/auth';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ResourceNewPage } from './resource-new.page';
 import { ResourceNewForm } from './resource-new/resource-new.form';
@@ -8,12 +9,14 @@ import { ResourceNewForm } from './resource-new/resource-new.form';
   imports: [
     CommonModule,
     RouterModule.forChild([
-      /* {path: '', pathMatch: 'full', component: InsertYourComponentHere} */
+      {
+        path: '',
+        pathMatch: 'full',
+        canActivate: [AuthGuard],
+        component: ResourceNewPage,
+      },
     ]),
   ],
-  declarations: [
-    ResourceNewPage,
-    ResourceNewForm
-  ],
+  declarations: [ResourceNewPage, ResourceNewForm],
 })
 export class ResourceNewModule {}
