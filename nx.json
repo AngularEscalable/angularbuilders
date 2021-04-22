@@ -25,6 +25,7 @@
     "domain-category": { "tags": ["domain", "page"] },
     "domain-resource-new": { "tags": ["domain", "page"] },
     "domain-search": { "tags": ["domain", "page"] },
-    "domain-search-box": { "tags": ["domain", "widget"] }
+    "domain-search-box": { "tags": ["domain", "widget"] },
+    "shared-auth": { "tags": ["shared", "page"] }
   }
 }

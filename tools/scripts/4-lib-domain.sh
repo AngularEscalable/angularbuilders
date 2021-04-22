@@ -15,7 +15,8 @@ git commit -m 'feat: generate not-found page'
 echo " ✍ generate resource page";
 nx g library resource --importPath=@ab/resource --prefix=ab --routing --lazy --parentModule='apps\www\src\app\core\core-routing.module.ts' --tags='domain, page'
 ng g c resource --project=domain-resource --flat --skipTests=false --skipSelector --type=Page
-ng g s data/resource --project=domain-resource
+ng g resolver resource --project domain-resource --skip-tests=true
+ng g s resource --project=domain-resource
 ng g interface models/resource --project=domain-resource
 echo " ✍ generate category page";
 nx g library category --importPath=@ab/category --prefix=ab --routing --lazy --parentModule='apps\www\src\app\core\core-routing.module.ts' --tags='domain, page'
