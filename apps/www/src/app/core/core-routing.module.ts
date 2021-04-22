@@ -33,7 +33,17 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot([...routes, notFoundRoute])],
+  imports: [
+    RouterModule.forRoot([
+      ...routes,
+      notFoundRoute,
+      {
+        path: 'auth',
+        loadChildren: () =>
+          import('@ab/auth').then((module) => module.AuthModule),
+      },
+    ]),
+  ],
   exports: [RouterModule],
 })
 export class CoreRoutingModule {}
