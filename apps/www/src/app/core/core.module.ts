@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter, map } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 import { CoreRoutingModule } from './core-routing.module';
 
 @NgModule({
@@ -25,5 +26,9 @@ export class CoreModule {
             label: navigation.urlAfterRedirects,
           }),
       });
+    if (environment.production === false) {
+      // ToDo: Use Redux DevTools
+      tracker.selectActions$().subscribe((action) => console.table(action));
+    }
   }
 }
