@@ -7,42 +7,50 @@ export class Store<T> {
   private _actions$: BehaviorSubject<Action>;
 
   constructor(initialState: T) {
-    this._state$ = new BehaviorSubject(this.clone(initialState));
-    const initialAction = {
-      type: 'INIT',
+    this._state$ = new BehaviorSubject(this.getClone(initialState));
+    const initialAction: Action = {
+      type: 'INITIAL',
       payload: initialState,
     };
     this._actions$ = new BehaviorSubject(initialAction);
   }
 
-  public setState(mutation: Partial<T>) {
+  setState(mutation: Partial<T>) {
     const mutatedState = { ...this.getSnapshot(), ...mutation };
-    this._state$.next(this.clone(mutatedState));
+    this._state$.next(this.getClone(mutatedState));
   }
-  public dispatch(action: Action) {
+
+  dispatch(action: Action) {
     this.setState(action.payload);
     this._actions$.next(action);
   }
 
-  public reduce(action: Action, reducer: (currentState: T, payload: any) => T) {
+  reduce(action: Action, reducer: (currentStat: T, payload: any) => T) {
     const mutatedState = reducer(this.getSnapshot(), action.payload);
-    this.setState(mutatedState);
+    this._state$.next(this.getClone(mutatedState));
     this._actions$.next(action);
   }
 
-  public getSnapshot() {
-    return this.clone(this._state$.value);
-  }
-  public getState$() {
-    return this._state$.asObservable().pipe(map((state) => this.clone(state)));
+  getSnapshot() {
+    return this.getClone(this._state$.value);
   }
 
-  private clone(source: T): T {
+  getState$() {
+    return this._state$
+      .asObservable()
+      .pipe(map((state) => this.getClone(state)));
+  }
+
+  getActions$() {
+    return this._actions$.asObservable();
+  }
+
+  private getClone(source: T): T {
     return { ...source };
   }
 }
 
-// versión con acciones
+// // versión con acciones
 // export class Store<T> {
 //   private _state$: BehaviorSubject<T>;
 //   private _actions$: BehaviorSubject<Action>;
@@ -77,7 +85,7 @@ export class Store<T> {
 //   }
 // }
 
-// Version dinámica
+// // Version dinámica
 // export class Store<T> {
 //   private _state$: BehaviorSubject<T>;
 
@@ -100,7 +108,7 @@ export class Store<T> {
 //   }
 // }
 
-// Version estática
+// // Version estática
 // export class Store<T> {
 //   private _state: T;
 
