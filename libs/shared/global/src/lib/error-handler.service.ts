@@ -1,9 +1,7 @@
 import { ErrorHandler, Injectable } from '@angular/core';
 import { TrackerStoreService } from './tracker-store.service';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class ErrorHandlerService implements ErrorHandler {
   constructor(private tracker: TrackerStoreService) {}
   handleError(error: Error): void {
