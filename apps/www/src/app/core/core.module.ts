@@ -41,5 +41,10 @@ export class CoreModule {
       // ToDo: Use Redux DevTools
       tracker.selectActions$().subscribe((action) => console.table(action));
     }
+    tracker.trackEntry({
+      category: 'SYSTEM',
+      event: 'APP_STARTED',
+      label: JSON.stringify(environment),
+    });
   }
 }
