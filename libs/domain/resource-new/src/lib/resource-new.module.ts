@@ -1,4 +1,5 @@
 import { AuthGuard } from '@ab/auth';
+import { FormModule } from '@ab/form';
 import { UiModule } from '@ab/ui';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -9,6 +10,7 @@ import { ResourceNewForm } from './resource-new/resource-new.form';
 @NgModule({
   imports: [
     CommonModule,
+    FormModule,
     ReactiveFormsModule,
     RouterModule.forChild([
       {
