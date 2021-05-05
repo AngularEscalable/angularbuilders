@@ -6,7 +6,9 @@
          [type]="type"
          [id]="formControlName"
          [placeholder]="placeholder"
-         class="input" autocomplete="off" />
+         class="input" autocomplete="off"
+         [value]="value"
+         (input)="onInput($event)" />
   <span *ngIf="hasErrorToShow()">
     <em> {{ getErrorMessage() }} </em>
   </span>
