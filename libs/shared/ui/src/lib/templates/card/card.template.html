@@ -10,5 +10,9 @@
     <div *ngIf="!!card.description" class="content">
       {{ card.description }}
     </div>
+    <div *ngIf="!card.description" class="content">
+      <ng-content select=".content">
+      </ng-content>
+    </div>
   </main>
 </article>
