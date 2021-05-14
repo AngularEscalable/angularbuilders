@@ -7,12 +7,12 @@
     </p>
   </header>
   <main class="card-content">
-    <div *ngIf="!!card.description" class="content">
+    <div *ngIf="!!card.description; else noDescription" class="content">
       {{ card.description }}
-    </div>
-    <div *ngIf="!card.description" class="content">
-      <ng-content select=".content">
-      </ng-content>
     </div>
   </main>
 </article>
+<ng-template #noDescription>
+  <ng-content select=".content">
+  </ng-content>
+</ng-template>

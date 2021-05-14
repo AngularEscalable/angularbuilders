@@ -6,6 +6,7 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 })
 export class TrackDirective {
   @Input('abUiTrack') label?: string;
+  
   @HostListener('click') onClick() {
     this.trackUserInteraction('CLICK');
   }

@@ -7,10 +7,19 @@ export class TruncatePipe implements PipeTransform {
   transform(value: unknown, ...args: unknown[]): unknown {
     const source = value as string;
     if (!source) return '';
-    const limit = (args[0] as string) ? parseInt(args[0] as string) : 20;
+
+    const defaultLimit = 20;
+    const limitArg = args[0] as string;
+    const limit = limitArg ? parseInt(limitArg) : defaultLimit;
+
     if (source.length <= limit) return source;
-    const trail = args[1] ?? '...';
-    return source.substring(0, limit) + trail;
+
+    const defaultTrail = '...';
+    const trailArg = args[1];
+    const trail = trailArg || defaultTrail;
+    const truncated = source.substring(0, limit) + trail;
+
+    return truncated;
   }
 }
 
