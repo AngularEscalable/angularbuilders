@@ -14,56 +14,104 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "parallel": 1
       }
     }
   },
-  "projects": {
-    "www": {
-      "tags": []
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/angular"
+  },
+  "defaultProject": "www",
+  "generators": {
+    "@nrwl/angular": {},
+    "@nrwl/angular:application": {
+      "style": "css",
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress",
+      "enableIvy": true,
+      "inlineStyle": true,
+      "prefix": "ab",
+      "routing": true,
+      "skipInstall": true,
+      "skipTests": true,
+      "strict": true,
+      "tags": "app"
     },
-    "www-e2e": {
-      "tags": [],
-      "implicitDependencies": ["www"]
+    "@nrwl/angular:library": {
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "buildable": true,
+      "directory": "domain",
+      "enableIvy": true,
+      "inlineStyle": true,
+      "prefix": "ab",
+      "simpleModuleName": true,
+      "skipInstall": true,
+      "skipTests": true,
+      "strict": true,
+      "tags": "lib"
     },
-    "shared-global": {
-      "tags": ["shared", "core"]
+    "@nrwl/angular:component": {
+      "changeDetection": "OnPush",
+      "inlineStyle": true,
+      "skipTests": true,
+      "style": "css"
     },
-    "shared-data": {
-      "tags": ["shared", "core"]
+    "@schematics/angular:component": {
+      "changeDetection": "OnPush",
+      "inlineStyle": true,
+      "skipTests": true,
+      "style": "css"
     },
-    "shared-ui": {
-      "tags": ["shared", "ui"]
+    "@nrwl/angular:service": {
+      "skipTests": true,
+      "flat": true
     },
-    "shared-form": {
-      "tags": ["shared", "ui"]
+    "@schematics/angular:service": {
+      "skipTests": true,
+      "flat": true
     },
-    "shared-layout": {
-      "tags": ["shared", "ui"]
+    "@nrwl/angular:interceptor": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-home": {
-      "tags": ["domain", "page"]
+    "@schematics/angular:interceptor": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-not-found": {
-      "tags": ["domain", "page"]
+    "@nrwl/angular:guard": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-resource": {
-      "tags": ["domain", "page"]
+    "@schematics/angular:guard": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-category": {
-      "tags": ["domain", "page"]
+    "@nrwl/angular:directive": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-resource-new": {
-      "tags": ["domain", "page"]
+    "@schematics/angular:directive": {
+      "skipTests": true,
+      "flat": true
     },
-    "domain-search": {
-      "tags": ["domain", "page"]
+    "@nrwl/angular:pipe": {
+      "skipTests": false,
+      "flat": true
     },
-    "domain-search-box": {
-      "tags": ["domain", "widget"]
-    },
-    "shared-auth": {
-      "tags": ["shared", "page"]
+    "@schematics/angular:pipe": {
+      "skipTests": false,
+      "flat": true
     }
   }
 }

@@ -1,5 +1,8 @@
+const { getJestProjects } = require('@nrwl/jest');
+
 module.exports = {
   projects: [
+    ...getJestProjects(),
     '<rootDir>/apps/www',
     '<rootDir>/libs/shared/global',
     '<rootDir>/libs/shared/data',
