@@ -6,17 +6,19 @@ This project was generated using [Nx](https://nx.dev).
 
 ## :warning: Warning
 
-> 🔥 This project was created with version 10 of Nx and Angular.
+### 🔥 Remote API at heroku was shut down
 
-> 🔥 Bash Script on tools folder updated to version 13 of Nx and Angular CLI.
+- 🧑🏼‍🚒 use local instead `npm run api`
 
-> 🔥 Main brach was updated to latest versions of Nx and Angular.
+## ❗Version updates
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+- ❗ This project was created with version 10 of Nx and Angular.
 
-🔎 **Powerful, Extensible Dev Tools**
+- ❗ Bash Script at tools folder updated to version 13 of Nx and Angular CLI.
 
-## Quick Start & Documentation
+- ❗ Main brach was updated to to version 13 of Nx and Angular.
+
+## NX Quick Start & Documentation
 
 [Nx Documentation](https://nx.dev/angular)
 
@@ -24,52 +26,9 @@ This project was generated using [Nx](https://nx.dev).
 
 [Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
 
-## Adding capabilities to your workspace
-
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
-
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are our core plugins:
-
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
-
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
-
-## Generate an application
-
-Run `ng g @nrwl/angular:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
-
-When using Nx, you can create multiple applications and libraries in the same workspace.
-
-## Generate a library
-
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are shareable across libraries and applications. They can be imported from `@angularbuilders/mylib`.
-
 ## Development server
 
 Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
 
 ## Build
 
@@ -95,14 +54,21 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
-## ☁ Nx Cloud
-
-### Computation Memoization in the Cloud
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+---
+
+<footer>
+  <h3>🧑🏼‍💻 By <a href="https://albertobasalo.dev" target="blank">Alberto Basalo</a> </h3>
+  <p>
+    <a href="https://twitter.com/albertobasalo" target="blank">
+      <img src="https://img.shields.io/twitter/follow/albertobasalo?logo=twitter&style=for-the-badge" alt="twitter albertobasalo" />
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/albertobasalo" target="blank">
+      <img 
+        src="https://img.shields.io/github/followers/albertobasalo?logo=github&label=profile albertobasalo&style=for-the-badge" alt="git albertobasalo" />
+    </a>
+  </p>
+</footer>

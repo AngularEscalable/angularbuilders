@@ -1,7 +1,13 @@
 {
   "name": "angularbuilders",
-  "version": "0.0.0",
+  "description": "Angular sample code for TrainingIT video course",
+  "version": "13.0.0",
   "license": "MIT",
+  "author": {
+    "name": "Alberto Basalo",
+    "email": "albertobasalo@hotmail.com",
+    "url": "https://albertobasalo.dev"
+  },
   "scripts": {
     "api": "json-server ./database/db.json -r ./database/routes.json",
     "ng": "nx",
