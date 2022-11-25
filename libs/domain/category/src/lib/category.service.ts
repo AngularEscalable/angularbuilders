@@ -8,18 +8,16 @@ import { Resource } from './models/resource';
   providedIn: 'root',
 })
 export class CategoryService {
-  private readonly categoriesUrl = `https://api-angularbuilders.herokuapp.com/v1/categories`;
+  private readonly categoriesUrl = `http://localhost:3000/categories`;
   constructor(private http: HttpClient) {}
   getCategoryById$(categoryId: string) {
     return this.http
-      .get<{ data: Category }>(`${this.categoriesUrl}/${categoryId}`)
-      .pipe(map((result) => result.data));
+      .get<Category>(`${this.categoriesUrl}/${categoryId}`)
+      .pipe(map((result) => result));
   }
   getResourcesByCategoryId$(categoryId: string) {
     return this.http
-      .get<{ data: Resource[] }>(
-        `${this.categoriesUrl}/${categoryId}/resources`
-      )
-      .pipe(map((result) => result.data));
+      .get<Resource[]>(`${this.categoriesUrl}/${categoryId}/resources`)
+      .pipe(map((result) => result));
   }
 }

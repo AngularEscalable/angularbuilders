@@ -1,0 +1,562 @@
+[
+  {
+    "name": "RxJs",
+    "description": "Reactive Extensions For JavaScript. Asynchronous and event-based programs by using observable sequences",
+    "url": "https://github.com/ReactiveX/rxjs",
+    "id": "rxjs",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Taiga UI",
+    "description": "Angular UI Kit and components library for awesome people. Powerful set of customizable components",
+    "url": "https://github.com/TinkoffCreditSystems/taiga-ui",
+    "id": "taiga-ui",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": " ngx-errors",
+    "description": "Angular directives for displaying validation errors",
+    "url": "https://github.com/ngspot/ngx-errors",
+    "id": "ngx-errors",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Enterprise Angular",
+    "description": "Free eBook About Enterprise-Scale Angular-Architectures",
+    "url": "https://www.angulararchitects.io/book",
+    "id": "enterprise-angular",
+    "categoryId": "books"
+  },
+  {
+    "name": "NgRev",
+    "description": "Tool for reverse engineering of Angular applications",
+    "url": "https://github.com/mgechev/ngrev",
+    "id": "ngrev",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular Escalable",
+    "description": "Curso avanzado para el diseño y desarrollo de grandes aplicaciones web con Angular.",
+    "url": "https://www.trainingit.es/index.php/producto/curso-angular-avanzado/",
+    "id": "angular-escalable",
+    "categoryId": "courses"
+  },
+  {
+    "name": "Angular Material",
+    "description": "Component infrastructure and Material Design components for Angular",
+    "url": "https://github.com/angular/components",
+    "id": "angular-material",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Ng Conf 2021",
+    "description": "The World's Premier Angular Event",
+    "url": "https://www.2021.ng-conf.org/",
+    "id": "ng-conf-2021",
+    "categoryId": "events"
+  },
+  {
+    "name": "@jscutlery/semver",
+    "description": "Nx plugin to automate semantic versioning and CHANGELOG generation.",
+    "url": "https://github.com/jscutlery/semver",
+    "id": "jscutlerysemver",
+    "categoryId": "tools"
+  },
+  {
+    "name": "ngneat hot toast",
+    "description": "The Best Angular Toast in Town Smoking hot Angular notifications. Inspired from React Hot Toast",
+    "url": "https://github.com/ngneat/hot-toast",
+    "id": "ngneat-hot-toast",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "NGX Bootstrap",
+    "categoryId": "ui-components",
+    "description": "Add Bootstrap capabilities for Angular. Fast and reliable Bootstrap widgets in Angular (supports Ivy engine)",
+    "url": "https://github.com/valor-software/ngx-bootstrap",
+    "id": "ngx-bootstrap"
+  },
+  {
+    "name": "Teradata Covalent UI Platform",
+    "categoryId": "ui-components",
+    "description": "UI Platform built on Angular Material",
+    "url": "https://github.com/teradata/covalent",
+    "id": "teradatacovalent-ui-platform"
+  },
+  {
+    "name": " The Complete Guide",
+    "categoryId": "books",
+    "description": "Master Angular and build awesome, reactive web apps",
+    "url": "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+    "id": "the-complete-guide"
+  },
+  {
+    "name": "ngx-electronify",
+    "description": "Angular CLI builder that runs your application in the desktop using Electron",
+    "url": "https://github.com/bampakoa/ngx-electronify",
+    "id": "ngx-electronify",
+    "categoryId": "tools"
+  },
+  {
+    "name": "ngx-foldable",
+    "description": "ngx-foldable is a set of components and services to help you build dual-screen experiences for foldable or dual-screen devices, such as the Surface Duo",
+    "url": "https://github.com/sinedied/ngx-foldable",
+    "id": "ngx-foldable",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Angular Lib for OpenID Connect & OAuth2",
+    "description": "OpenID Code Flow with PKCE, Code Flow with refresh tokens, OpenID Connect Implicit Flow",
+    "url": "https://github.com/damienbod/angular-auth-oidc-client",
+    "id": "angular-auth-oidc-client",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Common utils for Web APIs",
+    "description": "Web APIs for Angular:High quality lightweight wrappers for native Web APIs for idiomatic use with Angular",
+    "url": "https://github.com/ng-web-apis/common",
+    "id": "ng-web-apis-common",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "NGRX Reactive State for Angular",
+    "description": "Reactive state management with isolated side effects powered by Schematics",
+    "url": "https://github.com/ngrx/platform",
+    "id": "ngrx",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Spectator",
+    "description": "A Powerful Tool to Simplify Your Angular Tests",
+    "url": "https://github.com/ngneat/spectator",
+    "id": "spectator",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Auto Spies",
+    "description": "Easy and type safe way to write spies for tests, for both sync and async (promises, Observables) returning methods.",
+    "url": "https://github.com/hirezio/auto-spies",
+    "id": "auto-spies",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular Testing Library",
+    "description": "Simple and complete Angular testing utilities that encourage good testing practices. Builds on top of DOM Testing Library by adding APIs for working with Angular components.",
+    "url": "https://github.com/testing-library/angular-testing-library",
+    "id": "angular-testing-library",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Prime NG",
+    "description": "UI Component Library featuring elegant, high-performance, accessible and fully customizable UI Components.",
+    "url": "https://github.com/primefaces/primeng",
+    "id": "prime-ng",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Ng zorro",
+    "description": "Enterprise-class Angular UI component library based on Ant Design, all components are open source and free to use under MIT license.",
+    "url": "https://github.com/NG-ZORRO/ng-zorro-antd",
+    "id": "ng-zorro",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Scully",
+    "description": "Static Angular sites, build, test and deploy Jamstack apps extremely fast.",
+    "url": "https://github.com/scullyio/scully",
+    "id": "scully",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular Essentials",
+    "description": "Essential VS code extensions for Angular developers.",
+    "url": "https://github.com/johnpapa/vscode-angular-essentials",
+    "id": "angular-essentials",
+    "categoryId": "tools"
+  },
+  {
+    "name": "NX Angular Console",
+    "description": "VS Code Extension to spend less time looking up command line arguments and more time shipping incredible products.",
+    "url": "https://github.com/nrwl/nx-console",
+    "id": "angular-console",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular2 switcher",
+    "description": "VS Code Extension to easily navigate to `typescript`|`template`|`style` in angular2 project.",
+    "url": "https://github.com/infinity1207/angular2-switcher",
+    "id": "angular2-switcher",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Learning Angular",
+    "description": "This book will demystify Angular as a framework, as well as provide clear instructions and examples on how to get started with writing scalable Angular applications. By Aristeidis Bampakos ",
+    "url": "https://www.packtpub.com/product/learning-angular-third-edition/9781839210662",
+    "id": "learning-angular",
+    "categoryId": "books"
+  },
+  {
+    "name": "Angular for Enterprise-Ready Web Applications",
+    "description": "Start mastering Angular programming fundamentals to design and develop line-of-business app By Doguhan Uluca",
+    "url": "https://www.packtpub.com/product/learning-angular-third-edition/9781839210662",
+    "id": "angular-for-enterprise-ready-web-applications",
+    "categoryId": "books"
+  },
+  {
+    "name": "Apollo Angular",
+    "description": "Easy to use, production ready, customisable GraphQL Client for Angular Framework",
+    "url": "https://github.com/kamilkisiela/apollo-angular",
+    "id": "apollo-angular",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "ngSetState",
+    "description": "Library that helps developing angular components in a more functional style where UI logic is representing as a series of morphisms of immutable states.",
+    "url": "https://github.com/0x1000000/ngSetState",
+    "id": "ngsetstate",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "ng-observe",
+    "description": "Angular reactivity streamlined...",
+    "url": "https://github.com/ngbox/ng-observe",
+    "id": "ng-observe",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Lumberjack",
+    "description": "Chop and cut Angular logs like a professional lumberjack.",
+    "url": "https://github.com/ngworker/lumberjack",
+    "id": "lumberjack",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "mini-rx-store",
+    "description": "Lightweight Redux Store based on RxJS",
+    "url": "https://github.com/spierala/mini-rx-store",
+    "id": "mini-rx-store",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Pro Angular 9",
+    "description": "Build Powerful and Dynamic Web Apps.",
+    "url": "https://www.apress.com/gp/book/9781484259979",
+    "id": "pro-angular-9",
+    "categoryId": "books"
+  },
+  {
+    "name": "Angular DevTools",
+    "description": "Angular DevTools extends Chrome DevTools adding Angular specific debugging and profiling capabilities.",
+    "url": "https://github.com/rangle/angular-devtools",
+    "id": "angular-devtools",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Module Federation",
+    "description": "Seamlessly using Webpack Module Federation with the Angular CLI.",
+    "url": "https://github.com/angular-architects/module-federation-plugin",
+    "id": "module-federation",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular ESLint",
+    "description": "Tooling which enables ESLint to lint Angular projects.",
+    "url": "https://github.com/angular-eslint/angular-eslint",
+    "id": "angular-eslint",
+    "categoryId": "tools"
+  },
+  {
+    "name": "RxAngular",
+    "description": "RxAngular offers a comprehensive toolset for handling fully reactive Angular applications with the main focus on runtime performance and template rendering.",
+    "url": "https://github.com/rx-angular/rx-angular",
+    "id": "rx-angular",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Save to Google Pay",
+    "description": "The Save to Google Pay button makes it easy embed the Save to Google Pay functionality into your websites.",
+    "url": "https://github.com/google-pay/save-to-google-pay-button",
+    "id": "save-to-google-pay-button",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Google Pay Button",
+    "description": "The Google Pay API enables fast, simple checkout on your website. This provides convenient access to hundreds of millions of cards that are saved to Google Accounts worldwide.",
+    "url": "https://github.com/google-pay/google-pay-button",
+    "id": "google-pay-button",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Polymorpheus",
+    "description": "Polymorpheus is a tiny library for polymorphic templates in Angular..",
+    "url": "https://github.com/TinkoffCreditSystems/ng-polymorpheus",
+    "id": "polymorpheus",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "ng-morph",
+    "description": "Code mutations in schematics were never easier than now.",
+    "url": "https://github.com/TinkoffCreditSystems/ng-morph",
+    "id": "ng-morph",
+    "categoryId": "tools"
+  },
+  {
+    "name": "compodoc",
+    "description": "📔 The missing documentation tool for your Angular, Nest & Stencil application.",
+    "url": "https://github.com/compodoc/compodoc",
+    "id": "compodoc",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Componizer",
+    "description": "Componizer is a tool to help you refactor your Angular components. Just select your html and choose Componize from the right click menu (aka Context menu) to see some magic.",
+    "url": "https://github.com/bilelmsekni/componizer",
+    "id": "componizer",
+    "categoryId": "tools"
+  },
+  {
+    "name": "JSCutlery Test Utils",
+    "description": "Tools that make testing cheaper with Cypress and Angular.",
+    "url": "https://github.com/jscutlery/test-utils",
+    "id": "jscutlery-test-utils",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Convoyr",
+    "description": "Modular HTTP extensions for Angular with Inteterceptors for auth, cache and retry calls.",
+    "url": "https://github.com/jscutlery/convoyr",
+    "id": "convoyr",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Angular Cli GhPages",
+    "description": "🚀 Deploy your 🅰️Angular app to GitHub pages directly from the Angular CLI! Available on NPM.",
+    "url": "https://github.com/angular-schule/angular-cli-ghpages",
+    "id": "angular-cli-ghpages",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Observable-Store",
+    "description": "Observable Store provides a simple way to manage state in Angular, React, Vue.js and other front-end applications",
+    "url": "https://github.com/DanWahlin/Observable-Store",
+    "id": "observable-store",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "@ngneat/lib",
+    "description": "Schematics that wrap the Angular generate library schematics and provide all the standard boilerplate you need in order to create a neat Angular open-source project.",
+    "url": "https://github.com/ngneat/lib",
+    "id": "ngneat-lib",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular Micro Frontend",
+    "description": "A fairly simple micro frontend component for Angular.",
+    "url": "https://github.com/jtneal/ng-micro-frontend",
+    "id": "angular-micro-frontend",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Ng Rome MMXXI",
+    "description": "The largest online Italian Angular Conference",
+    "url": "https://ngrome.io/home",
+    "id": "ng-rome-mmxxi",
+    "categoryId": "events"
+  },
+  {
+    "name": "Learn Angular in 24 Hours",
+    "description": "Very basic introduction",
+    "url": "https://www.amazon.com/gp/product/B086MQFLX6",
+    "id": "learn-angular-in-24-hours",
+    "categoryId": "books"
+  },
+  {
+    "name": "Angular 12 : with Examples",
+    "description": "This book will help you become an Angular expert and will get your dream job",
+    "url": "https://www.amazon.com/gp/product/B097884X2H",
+    "id": "angular-12-with-examples",
+    "categoryId": "books"
+  },
+  {
+    "name": "Angular Projects",
+    "description": "Build modern web apps by exploring Angular 12 with 10 different projects and cutting-edge technologies",
+    "url": "https://www.amazon.com/Angular-Projects-exploring-cutting-edge-technologies-ebook/dp/B08XXNBKNP/",
+    "id": "angular-projects",
+    "categoryId": "books"
+  },
+  {
+    "name": "Clarity Design",
+    "description": "Clarity is an open-source, enterprise-focused design system with a core design principle of inclusion.",
+    "url": "https://github.com/vmware/clarity",
+    "id": "clarity-design",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Angular Extensions Elements",
+    "description": "The easiest way to lazy-load Angular Elements or any other web components in your Angular application!",
+    "url": "https://github.com/angular-extensions/elements",
+    "id": "angular-extensions-elements",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Route Path Builder",
+    "description": "Declarative Route Path Management in Angular Apps",
+    "url": "https://github.com/ngspot/route-path-builder",
+    "id": "route-path-builder",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Akita",
+    "description": "A Reactive State Management Tailored-Made for JS Applications",
+    "url": "https://github.com/datorama/akita",
+    "id": "akita",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Transloco",
+    "description": "The internationalization (i18n) library for angular that allows you to define translations for your content in different languages and switch between them easily in runtime. ",
+    "url": "https://github.com/ngneat/transloco",
+    "id": "transloco",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Angular-Three-core",
+    "description": " Leverage your Angular skill to build mind-blowing 3D applications with THREE.js",
+    "url": "https://github.com/nartc/angular-three",
+    "id": "angular-three",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "xng-breadcrumb",
+    "description": "A lightweight, declarative and configurable breadcrumbs solution for Angular 6 and beyond. applications with THREE.js",
+    "url": "https://github.com/udayvunnam/xng-breadcrumb",
+    "id": "xng-breadcrumb",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Angular Zen",
+    "description": "The Angular tools you always wished were there. This is a monorepo for: angular-zen, angular-zen-ux and angular-zen-seo.",
+    "url": "https://github.com/bespunky/angular-zen",
+    "id": "angular-zen",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Angular Bash",
+    "description": "Scripts to generate angular apps with Narwhal NX DevTools",
+    "url": "https://github.com/angularbuilders/angular-bash",
+    "id": "angular-bash",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Angular Málaga",
+    "description": "AngularMálaga es un meetup mensual que se desarrolla en diferentes sedes en la ciudad de Málaga.",
+    "url": "https://angularmalaga.com/",
+    "id": "angular-malaga",
+    "categoryId": "events"
+  },
+  {
+    "name": "Ngx Toastr",
+    "description": "Adding the notification component to an Angular application",
+    "url": "https://github.com/scttcper/ngx-toastr",
+    "id": "ngx-toastr",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "NGX Logger",
+    "description": "A simple logging module that allows local pretty print and remote post entries",
+    "url": "https://github.com/dbfannin/ngx-logger",
+    "id": "ngx-loggerr",
+    "categoryId": "library"
+  },
+  {
+    "name": "Ng Mocks",
+    "description": "Mock components, services and more out of annoying dependencies for simplification of Angular testing",
+    "url": "https://github.com/ike18t/ng-mocks",
+    "id": "ng-mocks",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "ngx Digit Only",
+    "description": "DigitOnly Directive and Mask Directive to only allow [0-9] in the input box when typing, pasting or drag/dropping.s",
+    "url": "https://github.com/changhuixu/ngx-digit-only",
+    "id": "ngx-digit-only",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Ng-sortgrid",
+    "description": " A grid that allows you to sort all items via drag & drop",
+    "url": "https://github.com/kreuzerk/ng-sortgrid",
+    "id": "ng-sortgrid",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "RxEffects",
+    "description": "Reactive state and effect management with RxJS",
+    "url": "https://github.com/mnasyrov/rx-effects",
+    "id": "rx-effects",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Web APIs for Angular",
+    "description": "High quality lightweight wrappers for various native Web APIs to use with Angular",
+    "url": "https://github.com/ng-web-apis/common",
+    "id": "Web-apis-for-angular",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Carbon Components Angular",
+    "description": "An Angular implementation of the Carbon Design System for IBM.",
+    "url": "https://github.com/IBM/carbon-components-angular",
+    "id": "carbon-components-angular",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Cypress Schematic",
+    "description": "Add this schematic to quickly get up and running with Cypress in your Angular project.",
+    "url": "https://github.com/cypress-io/cypress",
+    "id": "cypress-schematic",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Shield Maker",
+    "description": "Logo generator for your Angular Libraries",
+    "url": "https://github.com/AleksanderBodurri/shield-maker",
+    "id": "shield-maker",
+    "categoryId": "tools"
+  },
+  {
+    "name": "Solana wallet adapter",
+    "description": " Solana wallet adapters and components for Solana applications.",
+    "url": "https://github.com/solana-labs/wallet-adapter",
+    "id": "solana-wallet-adapter",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "NgxSpinner",
+    "description": "A library with more than 50 different loading spinners for Angular 4 - 12",
+    "url": "https://github.com/Napster2210/ngx-spinner",
+    "id": "ngx-spinner",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Reactive Forms",
+    "description": "A replacement for Angular Reactive Forms with Benefits",
+    "url": "https://github.com/ngneat/reactive-forms",
+    "id": "reactive-forms",
+    "categoryId": "libraries"
+  },
+  {
+    "name": "Kendo Angular",
+    "description": "Fully native components for building high-quality modern Angular UI in no time",
+    "url": "https://github.com/telerik/kendo-angular",
+    "id": "kendo-angular",
+    "categoryId": "ui-components"
+  },
+  {
+    "name": "Ng Recaptcha",
+    "description": "Angular component for Google reCAPTCHA",
+    "url": "https://github.com/DethAriel/ng-recaptcha",
+    "id": "ng-recaptcha",
+    "categoryId": "libraries"
+  }
+]

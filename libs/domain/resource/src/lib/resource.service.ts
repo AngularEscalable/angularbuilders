@@ -7,14 +7,13 @@ import { Resource } from './models/resource';
   providedIn: 'root',
 })
 export class ResourceService {
-  private readonly resourcesUrl =
-    'https://api-angularbuilders.herokuapp.com/v1/resources';
+  private readonly resourcesUrl = 'http://localhost:3000/resources';
 
   constructor(private http: HttpClient) {}
 
   getResourceById$(resourceId: string) {
     return this.http
-      .get<{ data: Resource }>(`${this.resourcesUrl}/${resourceId}`)
-      .pipe(map((result) => result.data));
+      .get<Resource>(`${this.resourcesUrl}/${resourceId}`)
+      .pipe(map((result) => result));
   }
 }

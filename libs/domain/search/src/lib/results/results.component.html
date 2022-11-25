@@ -1,1 +1,16 @@
-<pre> {{ resources | json }} </pre>
+<section class="section mt-4 mb-4">
+  <article *ngFor="let resource of resources">
+    <header>
+      <strong>
+        <a [routerLink]="['/resource', resource.id]">{{ resource.name }}</a>
+      </strong>
+    </header>
+    <main>
+      <p>{{ resource.description }}</p>
+    </main>
+    <small>
+      <a href="{{ resource.url }}" target="_blank">Visit resource home page</a>
+    </small>
+    <hr />
+  </article>
+</section>

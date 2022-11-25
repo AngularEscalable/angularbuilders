@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc58"
+  },
+  "name": "Libraries",
+  "description": "Packages or source code to depend on",
+  "id": "libraries"
+},{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc5b"
+  },
+  "name": "Books",
+  "description": "Paper or digital reading materials.",
+  "id": "books"
+},{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc59"
+  },
+  "name": "UI components",
+  "description": "Presentational frameworks and utilities",
+  "id": "ui-components"
+},{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc5c"
+  },
+  "name": "Tools",
+  "description": "Utilities for developers.",
+  "id": "tools"
+},{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc5a"
+  },
+  "name": "Courses",
+  "description": "Video, live or presential classes.",
+  "id": "courses"
+},{
+  "_id": {
+    "$oid": "602ba569d5fe285a2c61cc5d"
+  },
+  "name": "Events",
+  "description": "Comunity meetups.",
+  "id": "events"
+}]

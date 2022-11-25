@@ -1,7 +1,10 @@
 <!-- <pre>{{ resource | json }}</pre> -->
 <main>
-  <ab-ui-header [header]="header"></ab-ui-header>
+  <ab-ui-header [header]="header"> </ab-ui-header>
   <ab-ui-card>
-    <pre class="content">{{ resource | json }}</pre>
+    <section class="content">
+      <pre>{{ resource | json }}</pre>
+      <a href="{{resource.url}}" target="_blank">Visit resource home page</a>
+    </section>
   </ab-ui-card>
 </main>

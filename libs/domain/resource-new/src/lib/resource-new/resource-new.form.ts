@@ -36,7 +36,7 @@ export class ResourceNewForm implements OnInit {
     this.form = this.fb.group(
       {
         categoryId: new FormControl('aa', [Validators.required]),
-        resourcename: new FormControl('aaa', [
+        name: new FormControl('aaa', [
           Validators.required,
           Validators.minLength(2),
         ]),

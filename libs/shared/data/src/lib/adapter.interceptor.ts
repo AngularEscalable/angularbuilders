@@ -19,8 +19,8 @@ export class AdapterInterceptor implements HttpInterceptor {
   ): Observable<HttpEvent<unknown>> {
     return next.handle(request).pipe(
       filter((event) => event instanceof HttpResponse),
-      map((eventResponse) => eventResponse as HttpResponse<any>),
-      map((httpResponse) => this.adaptResponse(httpResponse))
+      map((eventResponse) => eventResponse as HttpResponse<any>)
+      //map((httpResponse) => this.adaptResponse(httpResponse))
     );
   }
 
